@@ -3,39 +3,48 @@
     <planes>
         <plane type="FighterPlane">
             <name>F-15</name>
-            <carrying>40</carrying>
-            <capacity>2</capacity>
-            <fuelConsumption>240</fuelConsumption>
-            <flyDistance>900</flyDistance>
+            <carrying>10</carrying>
+            <capacity>1</capacity>
+            <fuelConsumption>100</fuelConsumption>
+            <flyDistance>1000</flyDistance>
             <purpose>istrebitel</purpose>
-            <numberOfMissiles>3</numberOfMissiles>
+            <numberOfMissiles>1</numberOfMissiles>
         </plane>
         <plane type="FighterPlane">
             <name>F-15</name>
-            <carrying>40</carrying>
+            <carrying>20</carrying>
             <capacity>2</capacity>
-            <fuelConsumption>400</fuelConsumption>
-            <flyDistance>900</flyDistance>
+            <fuelConsumption>200</fuelConsumption>
+            <flyDistance>2000</flyDistance>
             <purpose>istrebitel</purpose>
-            <numberOfMissiles>3</numberOfMissiles>
+            <numberOfMissiles>2</numberOfMissiles>
         </plane>
         <plane type="PassengerPlane">
             <name>Boeing747</name>
-            <carrying>130</carrying>
-            <capacity>150</capacity>
-            <fuelConsumption>600</fuelConsumption>
-            <flyDistance>1000</flyDistance>
-            <economyClass>120</economyClass>
+            <carrying>30</carrying>
+            <capacity>300</capacity>
+            <fuelConsumption>300</fuelConsumption>
+            <flyDistance>3000</flyDistance>
+            <economyClass>300</economyClass>
             <businessClass>30</businessClass>
         </plane>
         <plane type="PassengerPlane">
             <name>Boeing747</name>
-            <carrying>-100</carrying>
-            <capacity>0</capacity>
-            <fuelConsumption>600</fuelConsumption>
+            <carrying>400</carrying>
+            <capacity>4</capacity>
+            <fuelConsumption>400</fuelConsumption>
+            <flyDistance>4000</flyDistance>
+            <economyClass>400</economyClass>
+            <businessClass>40</businessClass>
+        </plane>
+        <plane type="TransportPlane">
+            <name>F-15</name>
+            <carrying>10</carrying>
+            <capacity>1</capacity>
+            <fuelConsumption>100</fuelConsumption>
             <flyDistance>1000</flyDistance>
-            <economyClass>120</economyClass>
-            <businessClass>30</businessClass>
+            <luggageCapacity>10</luggageCapacity>
+            <loader>true</loader>
         </plane>
     </planes>
 </aircompany>

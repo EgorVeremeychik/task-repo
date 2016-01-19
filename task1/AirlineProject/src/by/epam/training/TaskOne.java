@@ -4,8 +4,8 @@ import by.epam.training.service.util.PlaneComparator;
 import by.epam.training.service.PlaneController;
 
 public class TaskOne {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         PlaneController controller = new PlaneController();
         controller.createAircompany();
         controller.getCapacity();

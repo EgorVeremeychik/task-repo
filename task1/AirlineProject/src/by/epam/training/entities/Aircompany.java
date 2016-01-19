@@ -60,12 +60,14 @@ public class Aircompany {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(this.getClass().getName());
-        builder.append("{ plane={");
+        builder.append("Aircompany{");
+        builder.append("plane=\n");
         for (Plane plane : planes) {
-            builder.append(plane.toString());
+            builder.append("\t");
+            builder.append(plane);
+            builder.append("\n");
         }
-        builder.append("}} ");
+        builder.append("}");
         return builder.toString();
     }
 }

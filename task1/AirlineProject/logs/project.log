@@ -1,0 +1,8 @@
+[19.01.2016 21:37:03] [ INFO] service.PlaneController - Aircompany created successful!
+[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getAllCapacity called!
+[19.01.2016 21:37:03] [ INFO] service.PlaneController - All capacity = 308
+[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getAllCarrying called!
+[19.01.2016 21:37:03] [ INFO] service.PlaneController - All carrying = 470.0
+[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getFuelConsumption from 300.0 to 700.0called!
+[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method sortPlane called!
+[19.01.2016 21:37:03] [ INFO] service.PlaneController - All planes sorted by fly distance!

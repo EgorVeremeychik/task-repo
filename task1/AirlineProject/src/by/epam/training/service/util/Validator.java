@@ -70,15 +70,9 @@ public class Validator {
     }
 
     public static boolean validateTransportPlane(TransportPlane transportPlane) {
-        if (transportPlane.isLoader() != true || transportPlane.isLoader() != false)
+        if (transportPlane.isLoader() != true || transportPlane.getLuggageCapacity() < 0)
             return false;
         return validate(transportPlane);
-    }
-
-    public static boolean validateCivilPlane(CivilPlane civilPlane) {
-        if (civilPlane.getLuggageCapacity() < 0)
-            return false;
-        return validate(civilPlane);
     }
 
     public static boolean validateAircompany(Aircompany aircompany) {
