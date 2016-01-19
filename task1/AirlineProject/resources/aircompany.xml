@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<aircompany>
+    <planes>
+        <plane type="FighterPlane">
+            <name>F-15</name>
+            <carrying>40</carrying>
+            <capacity>2</capacity>
+            <fuelConsumption>240</fuelConsumption>
+            <flyDistance>900</flyDistance>
+            <purpose>istrebitel</purpose>
+            <numberOfMissiles>3</numberOfMissiles>
+        </plane>
+        <plane type="FighterPlane">
+            <name>F-15</name>
+            <carrying>40</carrying>
+            <capacity>2</capacity>
+            <fuelConsumption>400</fuelConsumption>
+            <flyDistance>900</flyDistance>
+            <purpose>istrebitel</purpose>
+            <numberOfMissiles>3</numberOfMissiles>
+        </plane>
+        <plane type="PassengerPlane">
+            <name>Boeing747</name>
+            <carrying>130</carrying>
+            <capacity>150</capacity>
+            <fuelConsumption>600</fuelConsumption>
+            <flyDistance>1000</flyDistance>
+            <economyClass>120</economyClass>
+            <businessClass>30</businessClass>
+        </plane>
+        <plane type="PassengerPlane">
+            <name>Boeing747</name>
+            <carrying>-100</carrying>
+            <capacity>0</capacity>
+            <fuelConsumption>600</fuelConsumption>
+            <flyDistance>1000</flyDistance>
+            <economyClass>120</economyClass>
+            <businessClass>30</businessClass>
+        </plane>
+    </planes>
+</aircompany>
