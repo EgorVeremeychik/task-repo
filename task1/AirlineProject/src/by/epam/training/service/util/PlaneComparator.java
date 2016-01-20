@@ -51,6 +51,14 @@ public class PlaneComparator implements Comparator<Plane> {
     }
 
     public enum ItemEnum {
-        FLY_DISTANCE, FUEL_CONSUMPTION;
+        FLY_DISTANCE("fly distance"), FUEL_CONSUMPTION("fuel consumption");
+        private String typeSort;
+        ItemEnum(String key){
+            this.typeSort = key;
+        }
+
+        public String getTypeSort (){
+            return this.typeSort;
+        }
     }
 }

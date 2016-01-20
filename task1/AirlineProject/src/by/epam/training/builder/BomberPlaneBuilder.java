@@ -2,7 +2,10 @@ package by.epam.training.builder;
 
 import by.epam.training.entities.Plane;
 import by.epam.training.entities.military.bomber.BomberPlane;
+import by.epam.training.enums.MessagesEnum;
 import by.epam.training.enums.PurposeEnum;
+import by.epam.training.service.util.Messages;
+import org.apache.log4j.Logger;
 
 import javax.xml.crypto.KeySelector;
 
@@ -10,6 +13,11 @@ import javax.xml.crypto.KeySelector;
  * Created by EgorVeremeychik on 20.10.2015.
  */
 public class BomberPlaneBuilder implements Builder {
+
+    private static Logger LOG = Logger.getLogger(BomberPlaneBuilder.class);
+
+    public BomberPlaneBuilder(){LOG.info(Messages.getMessage(MessagesEnum.BOMBER_PLANE_BUILDER_CALLED));}
+
     private BomberPlane bomber = new BomberPlane();
 
     public Plane getResult() {

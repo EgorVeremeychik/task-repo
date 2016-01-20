@@ -2,11 +2,19 @@ package by.epam.training.builder;
 
 import by.epam.training.entities.Plane;
 import by.epam.training.entities.civil.transport.TransportPlane;
+import by.epam.training.enums.MessagesEnum;
+import by.epam.training.service.util.Messages;
+import org.apache.log4j.Logger;
 
 /**
  * Created by EgorVeremeychik on 20.10.2015.
  */
 public class TransportPlaneBuilder implements Builder {
+
+    private static Logger LOG = Logger.getLogger(TransportPlaneBuilder.class);
+
+    public TransportPlaneBuilder(){LOG.info(Messages.getMessage(MessagesEnum.TRANSPORT_PLANE_BUILDER_CALLED));}
+
     private TransportPlane transport = new TransportPlane();
 
     public Plane getResult() {

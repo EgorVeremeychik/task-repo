@@ -7,6 +7,7 @@ import by.epam.training.entities.civil.passenger.PassengerPlane;
 import by.epam.training.entities.civil.transport.TransportPlane;
 import by.epam.training.entities.military.bomber.BomberPlane;
 import by.epam.training.entities.military.fighter.FighterPlane;
+import by.epam.training.enums.MessagesEnum;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -18,7 +19,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.sql.SQLException;
 
 import org.apache.log4j.*;
 
@@ -57,21 +57,22 @@ public class XMLPlanesReader {
             }
             switch (type) {
                 case "FighterPlane":
-                    if (!Validator.validateFighterPlane((FighterPlane) builder.getResult()))
-                        throw new NumberFormatException();
+                    if (!Validator.validateFighterPlane((FighterPlane)builder.getResult()))
+                        throw new IllegalArgumentException(Messages.getMessage(MessagesEnum.VALIDATE_FAIL));
                     break;
                 case "BomberPlane":
                     if (!Validator.validateBomberPlane((BomberPlane) builder.getResult()))
-                        throw new NumberFormatException();
+                        throw new IllegalArgumentException(Messages.getMessage(MessagesEnum.VALIDATE_FAIL));
                     break;
                 case "PassengerPlane":
                     if (!Validator.validatePassengerPlane((PassengerPlane) builder.getResult()))
-                        throw new NumberFormatException();
+                        throw new IllegalArgumentException(Messages.getMessage(MessagesEnum.VALIDATE_FAIL));
                     break;
                 case "TransportPlane":
                     if (!Validator.validateTransportPlane((TransportPlane) builder.getResult()))
-                        throw new NumberFormatException();
+                        throw new IllegalArgumentException(Messages.getMessage(MessagesEnum.VALIDATE_FAIL));
                     break;
+
             }
             aircompany.add(builder.getResult());
         }

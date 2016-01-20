@@ -62,6 +62,18 @@ public class Validator {
     }
 
     public static boolean validatePassengerPlane(PassengerPlane passengerPlane) {
+        if (passengerPlane == null)
+            return false;
+        if (passengerPlane.getName() == null || passengerPlane.getName().length() < 1)
+            return false;
+        if (passengerPlane.getCapacity() < 1)
+            return false;
+        if (passengerPlane.getCarrying() < 0)
+            return false;
+        if (passengerPlane.getFuelConsumption() < 0)
+            return false;
+        if (passengerPlane.getFlyDistance() < 0)
+            return false;
         if (passengerPlane.getBusinessClass() < 0)
             return false;
         if (passengerPlane.getEconomyClass() < 0)
@@ -70,7 +82,21 @@ public class Validator {
     }
 
     public static boolean validateTransportPlane(TransportPlane transportPlane) {
-        if (transportPlane.isLoader() != true || transportPlane.getLuggageCapacity() < 0)
+        if (transportPlane == null)
+            return false;
+        if (transportPlane.getName() == null || transportPlane.getName().length() < 1)
+            return false;
+        if (transportPlane.getCapacity() < 1)
+            return false;
+        if (transportPlane.getCarrying() < 0)
+            return false;
+        if (transportPlane.getFuelConsumption() < 0)
+            return false;
+        if (transportPlane.getFlyDistance() < 0)
+            return false;
+        if (transportPlane.isLoader() != true )
+            return false;
+        if (transportPlane.getLuggageCapacity() < 0)
             return false;
         return validate(transportPlane);
     }

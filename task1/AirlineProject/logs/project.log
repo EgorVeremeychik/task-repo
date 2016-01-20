@@ -1,8 +1,15 @@
-[19.01.2016 21:37:03] [ INFO] service.PlaneController - Aircompany created successful!
-[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getAllCapacity called!
-[19.01.2016 21:37:03] [ INFO] service.PlaneController - All capacity = 308
-[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getAllCarrying called!
-[19.01.2016 21:37:03] [ INFO] service.PlaneController - All carrying = 470.0
-[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method getFuelConsumption from 300.0 to 700.0called!
-[19.01.2016 21:37:03] [DEBUG] service.PlaneController - Method sortPlane called!
-[19.01.2016 21:37:03] [ INFO] service.PlaneController - All planes sorted by fly distance!
+[20.01.2016 16:07:10] [ INFO] util.ExceptionHandler - Project aircompany started
+[20.01.2016 16:07:10] [ INFO] builder.FighterPlaneBuilder - FightPlaneBuilder called
+[20.01.2016 16:07:10] [ INFO] builder.FighterPlaneBuilder - FightPlaneBuilder called
+[20.01.2016 16:07:10] [ INFO] builder.PassengerPlaneBuilder - Passenger plane builder called
+[20.01.2016 16:07:10] [ INFO] builder.PassengerPlaneBuilder - Passenger plane builder called
+[20.01.2016 16:07:10] [ INFO] builder.TransportPlaneBuilder - Transport plane builder called
+[20.01.2016 16:07:10] [ INFO] service.PlaneController - Aircompany was created
+[20.01.2016 16:07:10] [DEBUG] service.PlaneController - Method getAllCapacity called
+[20.01.2016 16:07:10] [ INFO] service.PlaneController - All capacity = 308
+[20.01.2016 16:07:10] [DEBUG] service.PlaneController - Method getAllCarrying called
+[20.01.2016 16:07:10] [ INFO] service.PlaneController - All carrying = 470.0
+[20.01.2016 16:07:10] [DEBUG] service.PlaneController - Method getFuelConsumption from 300.0 to 700.0 called!
+[20.01.2016 16:07:10] [DEBUG] service.PlaneController - Method sortPlane called
+[20.01.2016 16:07:10] [ INFO] service.PlaneController - All planes sorted by fuel consumption
+[20.01.2016 16:07:10] [ INFO] util.ExceptionHandler - Project aircompany ended

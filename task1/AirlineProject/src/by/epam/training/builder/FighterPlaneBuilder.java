@@ -2,12 +2,19 @@ package by.epam.training.builder;
 
 import by.epam.training.entities.Plane;
 import by.epam.training.entities.military.fighter.FighterPlane;
+import by.epam.training.enums.MessagesEnum;
 import by.epam.training.enums.PurposeEnum;
+import by.epam.training.service.util.Messages;
+import org.apache.log4j.Logger;
 
 /**
  * Created by EgorVeremeychik on 20.10.2015.
  */
 public class FighterPlaneBuilder implements Builder {
+
+    private static Logger LOG = Logger.getLogger(FighterPlaneBuilder.class);
+
+    public FighterPlaneBuilder(){LOG.info(Messages.getMessage(MessagesEnum.FIGHTER_PLANE_BUILDER_CALLED));}
     private FighterPlane fighter = new FighterPlane();
 
     public Plane getResult() {
