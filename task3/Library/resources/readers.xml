@@ -1,0 +1,38 @@
+<readers>
+    <reader>
+        <nameReader>Ivan Ivanov1</nameReader>
+        <state>home</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov2</nameReader>
+        <state>readingRoom</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov3</nameReader>
+        <state>return</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov4</nameReader>
+        <state>returnAndTake</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov5</nameReader>
+        <state>home</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov6</nameReader>
+        <state>readingRoom</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov7</nameReader>
+        <state>return</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov8</nameReader>
+        <state>returnAndTake</state>
+    </reader>
+    <reader>
+        <nameReader>Ivan Ivanov9</nameReader>
+        <state>home</state>
+    </reader>
+</readers>

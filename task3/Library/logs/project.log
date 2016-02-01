@@ -1,0 +1,252 @@
+[01.02.2016 12:20:18] [ INFO] util.XMLBooksReader - Read books from XML started!
+[01.02.2016 12:20:18] [ INFO] util.XMLBooksReader - Read books from XML finished!
+[01.02.2016 12:20:18] [ INFO] controller.LibraryController - Library start work!
+[01.02.2016 12:20:18] [ INFO] util.XMLReadersReader - Read readers from XML started!
+[01.02.2016 12:20:18] [ INFO] util.XMLReadersReader - Read readers from XML finished!
+[01.02.2016 12:20:21] [ INFO] entity.Reader - Ivan Ivanov1 came to the library!
+[01.02.2016 12:20:21] [ INFO] entity.Reader - Ivan Ivanov1 take book
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand]]
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=D, place=InReadingRoom], Book: [name=E, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=G, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=G, place=OnHand]]
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=D, place=InReadingRoom], Book: [name=E, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=G, place=OnHand], Book: [name=I, place=InReadingRoom]]
+[01.02.2016 12:20:21] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=D, place=InReadingRoom], Book: [name=E, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:21] [ INFO] entity.Reader - Ivan Ivanov1 went to read!
+[01.02.2016 12:20:24] [ INFO] entity.Reader - Ivan Ivanov2 came to the library!
+[01.02.2016 12:20:24] [ INFO] entity.Reader - Ivan Ivanov2 take book
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=F, place=OnHand]]
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=D, place=InReadingRoom], Book: [name=E, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=F, place=OnHand], Book: [name=D, place=InReadingRoom]]
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=E, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=F, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=B, place=InReadingRoom]]
+[01.02.2016 12:20:24] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:24] [ INFO] entity.Reader - Ivan Ivanov2 went to read!
+[01.02.2016 12:20:26] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand], Book: [name=G, place=OnHand]]
+[01.02.2016 12:20:26] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=I, place=InReadingRoom]]
+[01.02.2016 12:20:26] [ INFO] entity.Reader - Ivan Ivanov1 return all books for readingRoom and leave library!
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov3 came to the library!
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov4 came to the library!
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov3 take book
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - Ivan Ivanov3[Book: [name=G, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - Ivan Ivanov3[Book: [name=G, place=OnHand], Book: [name=E, place=InReadingRoom]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=H, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - Ivan Ivanov3[Book: [name=G, place=OnHand], Book: [name=E, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=H, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov3 went to read!
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov4 take book
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - Ivan Ivanov4[Book: [name=H, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand]]
+[01.02.2016 12:20:27] [ INFO] entity.Reader - Ivan Ivanov4 leave library!
+[01.02.2016 12:20:29] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=F, place=OnHand]]
+[01.02.2016 12:20:29] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=D, place=InReadingRoom], Book: [name=B, place=InReadingRoom]]
+[01.02.2016 12:20:29] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=F, place=OnHand], Book: [name=D, place=InReadingRoom]]
+[01.02.2016 12:20:29] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=B, place=InReadingRoom]]
+[01.02.2016 12:20:29] [ INFO] entity.Reader - Ivan Ivanov2 return all books for readingRoom and leave library!
+[01.02.2016 12:20:30] [ INFO] entity.Reader - Ivan Ivanov5 came to the library!
+[01.02.2016 12:20:30] [ INFO] entity.Reader - Ivan Ivanov5 take book
+[01.02.2016 12:20:30] [ INFO] controller.LibraryController - Ivan Ivanov5[Book: [name=D, place=InReadingRoom]]
+[01.02.2016 12:20:30] [ INFO] controller.LibraryController - lib [Book: [name=A, place=OnHand], Book: [name=F, place=OnHand]]
+[01.02.2016 12:20:30] [ INFO] entity.Reader - Ivan Ivanov5 takes a book, that is missing
+[01.02.2016 12:20:30] [ INFO] controller.LibraryController - Ivan Ivanov5[Book: [name=D, place=InReadingRoom], Book: [name=A, place=OnHand]]
+[01.02.2016 12:20:30] [ INFO] controller.LibraryController - lib [Book: [name=F, place=OnHand]]
+[01.02.2016 12:20:30] [ INFO] entity.Reader - Ivan Ivanov5 went to read!
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov6 came to the library!
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov6 take book
+[01.02.2016 12:20:32] [ INFO] controller.LibraryController - Ivan Ivanov6[Book: [name=F, place=OnHand]]
+[01.02.2016 12:20:32] [ INFO] controller.LibraryController - lib []
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov6 takes a book, that is missing
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov6 takes a book, that is missing
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov6 leave library!
+[01.02.2016 12:20:32] [ INFO] controller.LibraryController - lib [Book: [name=E, place=InReadingRoom]]
+[01.02.2016 12:20:32] [ INFO] controller.LibraryController - Ivan Ivanov3[Book: [name=G, place=OnHand], Book: [name=J, place=OnHand]]
+[01.02.2016 12:20:32] [ INFO] entity.Reader - Ivan Ivanov3 return all books for readingRoom and leave library!
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov7 came to the library!
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov8 came to the library!
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov7 take book
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov7 takes a book, that is missing
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov7 takes a book, that is missing
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov7 leave library!
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov8 take book
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov8 takes a book, that is missing
+[01.02.2016 12:20:33] [ INFO] controller.LibraryController - Ivan Ivanov8[Book: [name=E, place=InReadingRoom]]
+[01.02.2016 12:20:33] [ INFO] controller.LibraryController - lib []
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov8 takes a book, that is missing
+[01.02.2016 12:20:33] [ INFO] entity.Reader - Ivan Ivanov8 went to read!
+[01.02.2016 12:20:33] [ INFO] controller.LibraryController - Library stoped give books!
+[01.02.2016 12:20:35] [ERROR] entity.Library - java.util.concurrent.RejectedExecutionException: Task by.bsuir.controller.ReaderController@1d2ad96a rejected from java.util.concurrent.ThreadPoolExecutor@521d9f91[Shutting down, pool size = 8, active threads = 8, queued tasks = 0, completed tasks = 0]
+[01.02.2016 12:20:35] [ INFO] controller.LibraryController - lib [Book: [name=D, place=InReadingRoom]]
+[01.02.2016 12:20:35] [ INFO] controller.LibraryController - Ivan Ivanov5[Book: [name=A, place=OnHand]]
+[01.02.2016 12:20:35] [ INFO] entity.Reader - Ivan Ivanov5 return all books for readingRoom and leave library!
+[01.02.2016 12:20:38] [ INFO] controller.LibraryController - lib [Book: [name=D, place=InReadingRoom], Book: [name=E, place=InReadingRoom]]
+[01.02.2016 12:20:38] [ INFO] controller.LibraryController - Ivan Ivanov8[]
+[01.02.2016 12:20:38] [ INFO] entity.Reader - Ivan Ivanov8 return all books for readingRoom and leave library!
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[01.02.2016 12:20:38] [ INFO] controller.LibraryController - Library end work
+[01.02.2016 12:20:38] [ERROR] entity.Reader - java.lang.InterruptedException: sleep interrupted
+[02.02.2016 02:05:05] [ INFO] util.XMLBooksReader - Read books from XML started!
+[02.02.2016 02:05:05] [ INFO] util.XMLBooksReader - Read books from XML finished!
+[02.02.2016 02:05:05] [ INFO] controller.LibraryController - Library start work!
+[02.02.2016 02:05:05] [ INFO] util.XMLReadersReader - Read readers from XML started!
+[02.02.2016 02:05:05] [ INFO] util.XMLReadersReader - Read readers from XML finished!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov3 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov2 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov3 take book
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov1 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov4 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov5 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov6 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov7 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov9 came to the library!
+[02.02.2016 02:05:05] [ INFO] entity.Reader - Ivan Ivanov8 came to the library!
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov3[Book: [name=E, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=A, place=OnHand], Book: [name=B, place=InReadingRoom], Book: [name=C, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=G, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov3 went to read!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov2 take book
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=B, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=A, place=OnHand], Book: [name=C, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=G, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=B, place=InReadingRoom], Book: [name=A, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=C, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=G, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov2 went to read!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov1 take book
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=C, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=G, place=OnHand], Book: [name=C, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=F, place=OnHand], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=G, place=OnHand], Book: [name=C, place=OnHand], Book: [name=F, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov1 leave library!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov4 take book
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov4[Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=H, place=OnHand], Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov4[Book: [name=J, place=OnHand], Book: [name=H, place=OnHand]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov4 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov4 leave library!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov5 take book
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov5[Book: [name=D, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov5 went to read!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov6 take book
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Ivan Ivanov6[Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:06] [ INFO] controller.LibraryController - Library[]
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov6 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov6 went to read!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov7 take book
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov7 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov7 leave library!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov9 take book
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov9 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov9 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov9 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov9 leave library!
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov8 take book
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov8 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov8 takes a book, that is missing
+[02.02.2016 02:05:06] [ INFO] entity.Reader - Ivan Ivanov8 leave library!
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom]]
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Ivan Ivanov3[]
+[02.02.2016 02:05:11] [ INFO] entity.Reader - Ivan Ivanov3 return all books for readingRoom and leave library!
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=A, place=OnHand]]
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Ivan Ivanov2[Book: [name=B, place=InReadingRoom]]
+[02.02.2016 02:05:11] [ INFO] entity.Reader - Ivan Ivanov2 return all books for readingRoom and leave library!
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=D, place=InReadingRoom]]
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Ivan Ivanov5[]
+[02.02.2016 02:05:11] [ INFO] entity.Reader - Ivan Ivanov5 return all books for readingRoom and leave library!
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:11] [ INFO] controller.LibraryController - Ivan Ivanov6[]
+[02.02.2016 02:05:11] [ INFO] entity.Reader - Ivan Ivanov6 return all books for readingRoom and leave library!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov1 came to the library!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov1 return and take book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=I, place=InReadingRoom], Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov4 came to the library!
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=F, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov1 take book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=F, place=OnHand], Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=D, place=InReadingRoom], Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=F, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=A, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov7 came to the library!
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=E, place=InReadingRoom], Book: [name=D, place=InReadingRoom], Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=C, place=OnHand], Book: [name=F, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov8 came to the library!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov9 came to the library!
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov1 went to read!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov4 return book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=D, place=InReadingRoom], Book: [name=G, place=OnHand], Book: [name=H, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov4[Book: [name=J, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov4 leave library!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov7 take book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov7[Book: [name=D, place=InReadingRoom]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=G, place=OnHand], Book: [name=H, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov7 went to read!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov8 take book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov8[Book: [name=H, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov8 takes a book, that is missing
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov8 leave library!
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov9 take book
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Ivan Ivanov9[Book: [name=G, place=OnHand]]
+[02.02.2016 02:05:16] [ INFO] controller.LibraryController - Library[]
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov9 takes a book, that is missing
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov9 takes a book, that is missing
+[02.02.2016 02:05:16] [ INFO] entity.Reader - Ivan Ivanov9 leave library!
+[02.02.2016 02:05:20] [ INFO] controller.LibraryController - Library stoped give books!
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Library[Book: [name=C, place=OnHand]]
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=F, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom]]
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Library[Book: [name=C, place=OnHand], Book: [name=I, place=InReadingRoom]]
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Ivan Ivanov1[Book: [name=F, place=OnHand], Book: [name=A, place=OnHand], Book: [name=E, place=InReadingRoom]]
+[02.02.2016 02:05:21] [ INFO] entity.Reader - Ivan Ivanov1 return all books for readingRoom and leave library!
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Library[Book: [name=C, place=OnHand], Book: [name=I, place=InReadingRoom], Book: [name=D, place=InReadingRoom]]
+[02.02.2016 02:05:21] [ INFO] controller.LibraryController - Ivan Ivanov7[]
+[02.02.2016 02:05:21] [ INFO] entity.Reader - Ivan Ivanov7 return all books for readingRoom and leave library!
+[02.02.2016 02:05:25] [ INFO] controller.LibraryController - Library end work!
+[02.02.2016 02:05:25] [ERROR] util.ExceptionHandler - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at by.bsuir.entity.ReaderAction.run(ReaderAction.java:153)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[02.02.2016 02:05:25] [ERROR] util.ExceptionHandler - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at by.bsuir.entity.ReaderAction.run(ReaderAction.java:153)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[02.02.2016 02:05:25] [ERROR] util.ExceptionHandler - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at by.bsuir.entity.ReaderAction.run(ReaderAction.java:153)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[02.02.2016 02:05:25] [ERROR] util.ExceptionHandler - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at by.bsuir.entity.ReaderAction.run(ReaderAction.java:153)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[02.02.2016 02:05:25] [ERROR] util.ExceptionHandler - sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at by.bsuir.entity.ReaderAction.run(ReaderAction.java:153)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
